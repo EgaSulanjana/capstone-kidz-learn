@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.SplashScreen">
+    tools:context=".view.activity.SplashScreen">
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,13 +18,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ProgressBar
+    <com.google.android.material.progressindicator.LinearProgressIndicator
         android:id="@+id/pb_splash_screen"
-        style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
-        android:scaleY="4"
+        android:scaleY="2"
+        app:indicatorColor="@color/black"
+        app:trackColor="@color/gray"
+        app:trackCornerRadius="8dp"
+        app:trackStopIndicatorSize="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
