@@ -1,2 +1,2 @@
-# capstone-kidz-learn
-Ini adalah repositori projek capstone bangkit 2024, Aplikasi mobile KidzLearn
+# Repository Machine Learning
+Ini adalah repositori khusus tim ML, selain tim ML dilarang merubah apapun yang ada di branch ini tanpa izin dari tim ML.
